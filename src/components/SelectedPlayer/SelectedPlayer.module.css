@@ -1,0 +1,28 @@
+.selectedPlayer{
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 350px;
+    height: 100%;
+    background-color: white;
+    padding: 50px 35px;
+}
+.playerCart p{
+    font-weight: bold;
+}
+.selectedPlayersName{
+    margin-top: 50px;
+}
+.selectedPlayersName h3{
+    font-size: 24px;
+    font-weight: bold;
+
+}
+.selectedPlayersName ul{
+    margin-top: 15px;
+    list-style: none;
+}
+.selectedPlayersName ul li{
+    margin-bottom: 15px;
+    color: gray;
+}

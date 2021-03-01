@@ -1,0 +1,23 @@
+.playerDetails{
+    margin-top: 35px;
+    text-align: center;
+    padding-bottom: 25px;
+}
+.playerDetails .text{
+    background-color: #E3EFFB;
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px #b1c2d2;
+}
+.playerDetails .selectBtn{
+    display: inline-block;
+    background-color: #4f68f1;
+    border-width: 2px 0 0 2px;
+    border-style: solid;
+    border-color: white;
+    padding: 5px 25px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px #b1c2d2;
+    color: white;
+}

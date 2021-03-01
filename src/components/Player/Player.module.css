@@ -1,0 +1,9 @@
+.player {
+	min-height: 450px;
+	border-radius: 30px;
+	background: #D5E5F3;
+	box-shadow: 5px 5px 20px #95acc1, -5px -5px 20px #cae0f5;
+    border-width: 2px 0 0 3px;
+    border-style: solid;
+    border-color: white;
+}

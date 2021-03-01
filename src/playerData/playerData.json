@@ -1,0 +1,154 @@
+[
+    {
+        "name": "Mashrafe Mortaza",
+        "age": 37,
+        "playingRole": "Bowler",
+        "battingStyle": "Right-hand bat",
+        "bowlingStyle": "Right-arm fast-medium",
+        "transferFee": 400000,
+        "img": "https://rb.gy/kjo02v"
+    },
+    {
+        "name": "Mohammad Mushfiqur Rahim",
+        "age": 33,
+        "playingRole": "Wicketkeeper batsman",
+        "battingStyle": "Right-hand bat",
+        "fieldingPosition": "Wicketkeeper",
+        "transferFee": 400000,
+        "img": "https://rb.gy/wjoh3i"
+    },
+    {
+        "name": "Mohammad Mahmudullah",
+        "age": 35,
+        "playingRole": "Allrounder",
+        "battingStyle": "Right-hand bat",
+        "bowlingStyle": "Right-arm offbreak",
+        "transferFee": 400000,
+        "img": "https://rb.gy/8njpyu"
+    },
+    {
+        "name": "Taskin Ahmed",
+        "age": 25,
+        "playingRole": "Bowler",
+        "battingStyle": "Left-hand bat",
+        "bowlingStyle": "Right-arm fast",
+        "transferFee": 250000,
+        "img": "https://rb.gy/gfizpj"
+    },
+    {
+        "name": "Soumya Sarkar",
+        "age": 28,
+        "playingRole": "Middle-order batsman",
+        "battingStyle": "Left-hand bat",
+        "bowlingStyle": "Right-arm medium-fast",
+        "transferFee": 350000,
+        "img": "https://rb.gy/ox9ojy"
+    },
+    {
+        "name": "Mohammad Sabbir Rahman",
+        "age": 29,
+        "playingRole": "Middle-order batsman",
+        "battingStyle": "Right-hand bat",
+        "bowlingStyle": "Legbreak",
+        "transferFee": 300000,
+        "img": "https://rb.gy/jve5vi"
+    },
+    {
+        "name": "Najmul Hossain Shanto",
+        "age": 22,
+        "playingRole": "Middle-order batsman",
+        "battingStyle": "Left-hand bat",
+        "bowlingStyle": "Right-arm offbreak",
+        "transferFee": 200000,
+        "img": "https://rb.gy/pey9xq"
+    },
+    {
+        "name": "Mohammad Mithun",
+        "age": 29,
+        "playingRole": "Top-order batsman",
+        "battingStyle": "Right-hand bat",
+        "fieldingPosition": "Wicketkeeper",
+        "transferFee": 200000,
+        "img": "https://rb.gy/95jttz"
+    },
+    {
+        "name": "Mosaddek Hossain Saikat",
+        "age": 25,
+        "playingRole": "Middle-order batsman",
+        "battingStyle": "Right-hand bat",
+        "bowlingStyle": "Right-arm offbreak",
+        "transferFee": 200000,
+        "img": "https://rb.gy/xe4uah"
+    },
+    {
+        "name": "Hasan Mahmud",
+        "age": 21,
+        "playingRole": "Bowler",
+        "battingStyle": "Right-hand bat",
+        "bowlingStyle": "Right-arm medium",
+        "transferFee": 150000,
+        "img": "https://rb.gy/ruk1kb"
+    },
+    {
+        "name": "Tamim Iqbal Khan",
+        "age": 31,
+        "playingRole": "Opening batsman",
+        "battingStyle": "Left-hand bat",
+        "transferFee": 400000,
+        "img": "https://rb.gy/yl7tij"
+    },
+    {
+        "name": "Shakib Al Hasan",
+        "age": 24,
+        "playingRole": "Allrounder",
+        "battingStyle": "Left-hand bat",
+        "bowlingStyle": "Slow left-arm orthodox",
+        "transferFee": 500000,
+        "img": "https://rb.gy/wjn3rz"
+    },
+    {
+        "name": "Mohammad Rubel Hossain",
+        "age": 31,
+        "playingRole": "Bowler",
+        "battingStyle": "Right-hand bat",
+        "bowlingStyle": "Right-arm fast",
+        "transferFee": 200000,
+        "img": "https://rb.gy/87h8qo"
+    },
+    {
+        "name": "Mustafizur Rahman",
+        "age": 25,
+        "playingRole": "Bowler",
+        "battingStyle": "Left-hand bat",
+        "bowlingStyle": " Left-arm fast-medium",
+        "transferFee": 300000,
+        "img": "https://rb.gy/plthiy"
+    },
+    {
+        "name": "Mohammad Saifuddin",
+        "age": 24,
+        "playingRole": "Bowling allrounder",
+        "battingStyle": "Left-hand bat",
+        "bowlingStyle": "Right-arm medium-fast",
+        "transferFee": 200000,
+        "img": "https://rb.gy/r2pgkp"
+    },
+    {
+        "name": "Mehidy Hasan Miraz",
+        "age": 23,
+        "playingRole": "Allrounder",
+        "battingStyle": "Right-hand bat",
+        "bowlingStyle": "Right-arm offbreak",
+        "transferFee": 250000,
+        "img": "https://rb.gy/alxwyp"
+    },
+    {
+        "name": "Liton Kumar Das",
+        "age": 26,
+        "playingRole": "Wicketkeeper batsman",
+        "battingStyle": "Right-hand bat",
+        "fieldingPosition": "Wicketkeeper",
+        "transferFee": 250000,
+        "img": "https://rb.gy/nco7ma"
+    }
+]
