@@ -1,5 +1,7 @@
 import React from 'react';
 import logo from '../../images/logo.jpg';
+import { Navbar, Nav, Container } from 'react-bootstrap';
+import { LinkContainer } from 'react-router-bootstrap';
 
 const Header = () => {
     const imgStyle = {
@@ -8,10 +10,16 @@ const Header = () => {
         borderRadius: '50%'
     }
     return (
-        <div className="text-center">
+        <Container className='text-center'>
             <img style={imgStyle} src={logo} alt="Logo" />
-            <h1 style={{fontWeight: 'bold'}}>DPL Premium Players</h1>
-        </div>
+            <Navbar bg='dark' variant='dark' className='mt-5'>
+                <LinkContainer exact to='/'><Navbar.Brand> <h1 className='font-weight-bold text-danger'>DPL</h1> </Navbar.Brand></LinkContainer>
+                <Nav className='m-auto'>
+                    <LinkContainer exact to='/'><Nav.Link>All Players</Nav.Link></LinkContainer>
+                    <LinkContainer exact to='/teamPlayers'><Nav.Link>Your Team Players</Nav.Link></LinkContainer>
+                </Nav>
+            </Navbar>
+        </Container>
     );
 };
 

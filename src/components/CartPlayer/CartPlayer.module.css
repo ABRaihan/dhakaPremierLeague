@@ -3,7 +3,7 @@
     right: 0;
     top: 0;
     width: 350px;
-    height: 100%;
+    height: 100vh;
     background-color: white;
     padding: 50px 35px;
 }
@@ -25,4 +25,8 @@
 .selectedPlayersName ul li{
     margin-bottom: 15px;
     color: gray;
+}
+.showTeam{
+    position: absolute;
+    bottom: 20px;
 }

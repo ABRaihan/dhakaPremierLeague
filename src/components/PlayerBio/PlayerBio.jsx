@@ -19,7 +19,9 @@ const PlayerBio = (props) => {
 			{bowlingStyle && <p className={classes.text}>Bowling Style: {bowlingStyle}</p>}
 			{fieldingPosition && <p className={classes.text}>Fielding Position: {fieldingPosition}</p>}
 			<p className={classes.text}>Transfer Fee: {transferFee} Tk</p><br />
-			<button onClick={props.handleSelectedPlayer.bind(null, props.player)}  className={classes.selectBtn}>Select</button>
+			{
+				props.showButton || <button onClick={props.handleSelectedPlayer.bind(null, props.player)}  className={classes.selectBtn}>Select</button>
+			}
 		</div>
 	);
 };

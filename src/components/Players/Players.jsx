@@ -1,21 +1,17 @@
-import React, { useEffect, useState } from 'react';
-import playersData from '../../playerData/playerData.json';
+import React, { useContext } from 'react';
 import Player from '../Player/Player';
-import SelectedPlayer from '../SelectedPlayer/SelectedPlayer';
+import CartPlayer from '../CartPlayer/CartPlayer';
+import { DataContext } from '../DataContext/UserData';
 const Players = () => {
-    const [players, setPlayers] = useState([]);
-    useEffect(() => {
-        setPlayers(playersData);
-    },[])
-	// this will sort the players with their Transfer Fee
+	const [players, selectedPlayer, setSelectedPlayer] = useContext(DataContext);
+
 	players.sort((a, b) => b.transferFee - a.transferFee);
-	const [selectedPlayer, setSelectedPlayer] = useState([]);
-    const handleSelectedPlayer = (player) => {
-        if (!selectedPlayer.includes(player)) {
-            setSelectedPlayer([...selectedPlayer, player]);
-        } else
-            alert('This Player Already Selected')
+	const handleSelectedPlayer = (player) => {
+		if (!selectedPlayer.includes(player)) {
+			setSelectedPlayer([...selectedPlayer, player]);
+		} else alert('This Player Already Selected');
 	};
+
 	return (
 		<div className='container'>
 			<div className='row mt-5'>
@@ -25,9 +21,9 @@ const Players = () => {
 						player={player}
 						handleSelectedPlayer={handleSelectedPlayer}
 					/>
-                ))}
+				))}
 			</div>
-			<SelectedPlayer selectedPlayer={selectedPlayer} />
+			<CartPlayer selectedPlayer={selectedPlayer} />
 		</div>
 	);
 };
